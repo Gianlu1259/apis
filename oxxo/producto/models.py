@@ -12,9 +12,13 @@ class Chela(models.Model):
         return self.marca
 
 class Persona(models.Model):
+<<<<<<< HEAD
     nombre=models.CharField(max_length=50)
     apellido=models.CharField(max_length=50)
     sexo=models.CharField(max_length=2)
+=======
+    nombre_apellido=models.CharField(max_length=50)
+>>>>>>> ramaGian
     dni=models.IntegerField()
     #que ondax?????
     nacionalidad=models.CharField(max_length=50, blank=True, null=True)
