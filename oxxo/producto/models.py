@@ -17,3 +17,4 @@ class Persona(models.Model):
     dni=models.IntegerField()
     #que ondax?????
     nacionalidad=models.CharField(max_length=50, blank=True, null=True)
+    alcohol=models.DecimalField(max_digits=4, decimal_places=2)
