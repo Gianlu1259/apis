@@ -14,5 +14,6 @@ class Chela(models.Model):
 class Persona(models.Model):
     nombre=models.CharField(max_length=50)
     apellido=models.CharField(max_length=50)
+    sexo=models.CharField(max_length=2)
     dni=models.IntegerField()
     #que ondax?????
