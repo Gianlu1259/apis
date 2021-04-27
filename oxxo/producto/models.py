@@ -17,3 +17,4 @@ class Persona(models.Model):
     sexo=models.CharField(max_length=2)
     dni=models.IntegerField()
     #que ondax?????
+    nacionalidad=models.CharField(max_length=50, blank=True, null=True)
