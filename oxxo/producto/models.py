@@ -18,3 +18,12 @@ class Persona(models.Model):
     dni=models.IntegerField()
     #que ondax?????
     nacionalidad=models.CharField(max_length=50, blank=True, null=True)
+
+class Perro(model.Model):
+    nombre=models.CharField(max_length=50)
+    sexo=models.CharField(max_length=2)
+    numeroPatas=models.IntegerField()
+
+    def __str__(self):
+        return self.name
+    
