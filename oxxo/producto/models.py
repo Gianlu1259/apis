@@ -10,3 +10,7 @@ class Chela(models.Model):
     editado=models.DateTimeField(auto_now=True)
     def _str_(self):
         return self.marca
+
+class Persona(models.Model):
+    nombre=models.CharField(max_length=50)
+    apellido=models.CharField(max_length=50)
