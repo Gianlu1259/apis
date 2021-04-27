@@ -16,3 +16,4 @@ class Persona(models.Model):
     apellido=models.CharField(max_length=50)
     dni=models.IntegerField()
     #que ondax?????
+    nacionalidad=models.CharField(max_length=50, blank=True, null=True)
